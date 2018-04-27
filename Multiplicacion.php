@@ -1,4 +1,3 @@
-html lang="es-ES">
 <head>
 	<meta charset="UTF-8">
 	<title>Multiplicación de 2 numeros enteros</title>
@@ -27,8 +26,8 @@ html lang="es-ES">
 		['numero1'];
 		$num2 = $_POST
 		['numero2'];
-		$multiplicar = $num1 
-		* $num2;
+		$multiplicar = $num1* $num2;
+                
 		echo "La multiplicacion de ".$num1." y ".$num2." es ".$multiplicar; 
 	}
 ?>
